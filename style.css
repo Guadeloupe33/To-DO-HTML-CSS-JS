@@ -84,7 +84,7 @@
   }
   
   .delete-todo-button {
-    background: #e74c3c;
+    background: #3ca5e7;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -95,6 +95,5 @@
   }
   
   .delete-todo-button:hover {
-    background: #c0392b;
+    background: #2b87c0;
   }
-  
