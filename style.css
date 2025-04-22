@@ -97,3 +97,23 @@
   .delete-todo-button:hover {
     background: #2b87c0;
   }
+  .todo-item.completed {
+    text-decoration: line-through;
+    color: #999;
+    opacity: 0.7;
+  }
+  
+  .fade-out {
+    animation: fadeOut 0.3s ease forwards;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
